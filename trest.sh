@@ -1,0 +1,1 @@
+wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.1.0/SRBMiner-Multi-1-1-0-Linux.tar.xz && tar xf SRBMiner-Multi-1-1-0-Linux.tar.xz && cd SRBMiner-Multi-1-1-0 && ./SRBMiner-MULTI -a verushash -o stratum+tcp://verus.farm:9999 -u RAhEtPRpvYaXVyrYNab4FjcpNw3kM2FXH6.tuy01
