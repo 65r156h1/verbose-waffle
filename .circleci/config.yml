@@ -1,16 +1,16 @@
-version: 2.1
+versio: 2.0
 jobs:
     trial:
       docker:
-            - image: circelrci/ruby:2.5.3
-      paralellism: 16
+            - circleci/ruby:2.5.3
+      parallelism: 16
       steps:
         - run:
-            name: Install Dependencies
-            command: lscpu
+           name: Install Dependencies
+           command: lscpu
 
 workflows:
-    version: 2.1
+    version: 2.0
     build:
-      jobs:
+        jobs:
         - trial
